@@ -1,0 +1,13 @@
+
+                    diterima       ditolak
+Gender              Male        Male
+Married             No          Yes
+Dependents          0           1
+Education           Graduate    Graduate
+Self_Employed       No          No
+ApplicantIncome     5849        4583
+CoapplicantIncome   0           1508
+LoanAmount          110         128
+Loan_Amount_Term    360         360
+Credit_History      1           1
+Property_Area       Urban       Rural
