@@ -11,11 +11,6 @@ def run():
     st.image(img1,use_column_width=False)
     st.title("Bank Loan Prediction using Machine Learning")
 
-    ## Account No
-    account_no = st.text_input('Account number')
-
-    ## Full Name
-    fn = st.text_input('Full Name')
 
     ## For gender
     gen_display = ('Female','Male')
@@ -85,14 +80,10 @@ def run():
         ans = int("".join(lc))
         if ans == 0:
             st.error(
-                "Hello: " + fn +" || "
-                "Account number: "+account_no +' || '
                 'According to our Calculations, you will not get the loan from Bank'
             )
         else:
             st.success(
-                "Hello: " + fn +" || "
-                "Account number: "+account_no +' || '
                 'Congratulations!! you will get the loan from Bank'
             )
 
