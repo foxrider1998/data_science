@@ -14,5 +14,9 @@
   ```
 - `Str_Loan_ML.ipynb` is the notebook file of the Data pre-processing & Machine Learning.
 - `Loan_Data` contains the Dataset of this project.
-- For more explanation of this project see the tutorial on Machine Learning Hub YouTube channel.
 
+
+result can be seen at here 
+  ```
+https://foxrider1998-data-science-bank-loan-prediction-3m6h1v.streamlit.app/
+  ```
